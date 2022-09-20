@@ -1,0 +1,10 @@
+{
+    "css.format.enable": false,
+    "less.format.enable": false,
+    "scss.format.enable": false,
+    "json.format.enable": false,
+    "html.format.enable": false,
+    "vetur.format.defaultFormatter.html": "none",
+    "vetur.format.defaultFormatter.js": "none",
+    "bladeFormatter.format.enabled": false
+}
