@@ -1,6 +1,10 @@
 import './App.css';
 
 function App() {
+  // Create a varible here
+  const title = "welcome to the first react app";
+  const likes = 55;
+  const link = 'https://www.google.com';
   return (
     <div className="App">
       <h1>
