@@ -1,13 +1,17 @@
-# This Lessson
+# This Lessson about props Properties
 
-how to change data in realtime.
-data of a conponent is called state at a current time.
+we need to resue some piece of code/component/templete in react app.
 
-to change data/variable we need to reative that data. which rerender the template and change the value. This is called Hook
+def : props is use to pass the data from parent component to child component.
 
-hook start with work `use`
+for this we use props.
 
-we can use this hook by importing useState from react
+let see blogs list is use in different area of project.
+we create new component and move that listing templete code to new BlogList component
+
+Now BlogList templete need to be populated but component code is in Home component
+
+first we can paste the code to BlogList component. but by this approch we can not use the same component code.
 
 
 
