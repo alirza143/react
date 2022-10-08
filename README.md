@@ -1,7 +1,6 @@
-# This Lessson about Cleanup the fetch request
-clean fetch request or stop fetch request, this will stop any state to update/change when the fetch request running and then is intrupted due to some routes change or click to move to another page.
+# This Lessson about Routes Parameters
 # Toturial that is this branch follow
-https://www.youtube.com/watch?v=aKOQtGLT-Yk&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&index=24
+https://www.youtube.com/watch?v=t7VmF4WsLCo&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&index=25
 
 # run npm server
 npm run start

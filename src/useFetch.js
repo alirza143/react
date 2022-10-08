@@ -33,7 +33,7 @@ const useFetch = (url) => {
                     setIsError(err.message);
                 //}
             })
-        }, 1000)
+        }, 100)
 
         // return () => abortController.abort();
         //dependency [url]
