@@ -1,12 +1,9 @@
-# This Lessson about input values or forms
-fetch the blogDetail or using the custom hook useFetch that we create earlier.
-as user type we need to save that value in some state, for later use
-and last we will add submit handle to submit
-
+# This Lessson about make a post request or save form
+save data is db, submit a form
 # Libraries that we are going to use in This Lesson
 useState from react 
 # Toturial that is this branch follow
-https://www.youtube.com/watch?v=IkMND33x0qQ&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&index=27
+https://www.youtube.com/watch?v=EcRFYF4B3IQ&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&index=29
 
 # run npm server
 npm run start
