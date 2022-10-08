@@ -1,9 +1,8 @@
-# This Lessson about show message on loading data
+# This Lessson about catch/hanlde error
 
 
-
-# Toturial that is follow
-https://www.youtube.com/watch?v=qtheqr0jgIQ
+# Toturial that is this branch follow
+https://www.youtube.com/watch?v=DTBta08fXGU&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&index=19
 
 
 # Server commands
