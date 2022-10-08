@@ -1,13 +1,9 @@
-# This Lessson about Making a custom hook
-we are going pull all fetch and error handling code into one componnent
-and then use that component again and again to fetch data for different component
-
-custom hook must start with use word otherwise it wont work
-
-
+# This Lessson about Making a route, exact route
+exact is use so that when browser rander the page, it rander the exact page that is request, not stop on its first result.
+ 
 # Toturial that is this branch follow
-https://www.youtube.com/watch?v=Jl4q2cccwf0&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&index=20
-
+https://www.youtube.com/watch?v=aZGzwEjZrXc&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&index=21
+https://www.youtube.com/watch?v=EmUa_tcSM-k&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&index=22
 # Server commands
 
 npm run start
