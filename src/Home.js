@@ -3,34 +3,30 @@ import BlogList from "./BlogList";
 
 const Home = () => {
     
-    const [blogs, setBlogs] = useState([
-        { title: 'My new website' , body: 'lorem ipsum ...', author: 'mario' , id: 1 },
-        { title: 'Welcome party! ', body: ' lorem ipsum ...', author: 'yoshi' , id: 2 },
-        { title: 'Web dev top tips' , body: ' lorem ipsum ...' , author: 'mario' , id: 3 }
-        ]);
+    const [blogs, setBlogs] = useState(null);
+    const [isPending, setIsPending] = useState(true);
 
-    const [name, setName] = useState('mario');
-
-    const deleteBlog = (id) => {
-        const newBlogs = blogs.filter(blog => blog.id !== id);
-        setBlogs(newBlogs);
-    }
-
-    const changeName = (name) => {
-        setName(name);
-    }
 
     // const is not using beacuse it does not return anything.
     // passing empty dependenciy array will only run the function once.
     // passing value in array will add dependency with name
     useEffect(() => {
-        console.log("use effect run");
-    }, [name]);
+        setTimeout(() => {
+            fetch('http://localhost:8000/blogs')
+            .then(res => {
+                return res.json()
+            })
+            .then(data => {
+                // console.log(data);
+                setBlogs(data);
+                setIsPending(false);
+            })
+        }, 1000)
+    }, []);
     return ( 
         <div className="home">
-            <BlogList blogs={blogs} title = "All Blogs" handleDelete = {deleteBlog}/>
-            <p>{ name }</p>
-            <button onClick={() => changeName("waqqar")}>Change</button>
+            { isPending && <div>Loading...</div> }
+            { blogs && <BlogList blogs={blogs} title = "All Blogs"/> }
         </div>
      );
 }

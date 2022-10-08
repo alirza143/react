@@ -1,12 +1,15 @@
-# This Lessson about useEffect Hook
-
-useState rander the dom. when refresh and when state changes mean when data is change.
-
-useEffect to run the code on every rander
-
-# This Lessson about add dependencies to useEffect. 
-
-add dependenciy to useEffect that if that dependenciy change function run otherwise dont 
+# This Lessson about show message on loading data
 
 
 
+# Toturial that is follow
+https://www.youtube.com/watch?v=qtheqr0jgIQ
+
+
+# Server commands
+
+npm run start
+
+# run json Server
+
+npx json-server --watch data/db.json --port 8000
