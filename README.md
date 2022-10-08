@@ -1,9 +1,9 @@
-# This Lessson about make a post request or save form
-save data is db, submit a form
+# This Lessson about redircting after save
+redirect after save move user to home page
 # Libraries that we are going to use in This Lesson
-useState from react 
+import { useHistory } from 'react-router-dom'
 # Toturial that is this branch follow
-https://www.youtube.com/watch?v=EcRFYF4B3IQ&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&index=29
+https://www.youtube.com/watch?v=TmVqwhBUiSM&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&index=30
 
 # run npm server
 npm run start
